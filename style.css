@@ -55,7 +55,7 @@ main {
 
 /* portfolio styles */
 .content h1 {
-    color: black;
+    color:paleturquoise ;
 }
 
 #portfolio {
@@ -64,19 +64,19 @@ main {
 }
 
 #portfolio li {
-    background: #fff;
+    background:	snow ;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-    background: #eee;
+    background:powderblue ;
 }
 
 #portfolio a {
     text-decoration: none;
-    color: #454545;
+    color: peachpuff;
 }
 #interests {
     border: 4px turquoise ridge;
