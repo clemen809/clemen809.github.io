@@ -43,12 +43,12 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-    //createPlatform(500, 300, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
-    // createPlatform(500, 100, 400, 10); // short but wide platform located 400 pixels from the right of the screen and 200 pixels from the bottom of the screen
-   // createPlatform(500, 100, 600, 30); // short but wide platform located 300 pixels from the left of the screen and 100 pixels from the top of the screen
-  // createPlatform(500, 100, 700, 80); // short but wide platform located 200 pixels from the right of the screen and 200 pixels from the bottom of the screen
-  // createPlatform(500, 300, 100, 40); // shor but wide platform located 100 pixels from the left of the screen and 300 pixels fromm the top of the screen
- // createPlatform(500, 400, 300, 30); // short but wide platfrom located 300 pixels from the right of the sreen and 200 pixels form the bottom of the screen
+    createPlatform(500, 300, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+   createPlatform(500, 100, 400, 10); // short but wide platform located 400 pixels from the left of the screen and 200 pixels from the bottom of the screen
+    createPlatform(500, 100, 600, 30); // short but wide platform located 300 pixels from the left of the screen and 100 pixels from the top of the screen
+   createPlatform(500, 100, 700, 80); // short but wide platform located 200 pixels from the left of the screen and 200 pixels from the bottom of the screen
+   createPlatform(500, 300, 100, 40); // shor but wide platform located 100 pixels from the left of the screen and 300 pixels fromm the top of the screen
+  createPlatform(500, 400, 300, 30); // short but wide platfrom located 300 pixels from the left of the sreen and 200 pixels form the bottom of the screen
  
  // TODO 2
     // Create collectables
@@ -64,9 +64,9 @@ $(function () {
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-    createCannon("left", 600, 1000); // cannon on left wall, 600px down, shooting once per second
-    createCannon("right", 600, 1000); // cannon on left wall, 600px down, shooting once per second
-    createCannon("bottom", 600, 1000); // cannon on left wall, 600px down, shooting once per second
+    createCannon("left", 600, 800); // cannon on left wall, 600px left, shooting once per second
+    createCannon("top", 1000,900 ); // cannon on top wall, 600px left, shooting once per second
+    createCannon("top", 200,900 ); // cannon on top wall 600px left shooting once per second
 
 
 
